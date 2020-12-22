@@ -1,21 +1,4 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
-.d1{
-  color: red;
-  text-align: center;
-  margin:50px;
-}
-.imgd2{
-  display: flex;
-  justify-content: center;
-}
-.imgd2 img{
-  
-  height: 250px;
-  width: 150px;;
-
-  
+ 
+.heading{
+   color: red;
 }

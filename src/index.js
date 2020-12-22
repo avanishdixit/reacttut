@@ -1,27 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Card from "./Card";
+import App from "./App";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
  
 
 ReactDOM.render(
   <>
-  <Card
-    imgsrc="https://www.cyberark.com/wp-content/uploads/2019/11/Developer.jpg"
-    title="My name is khan"
-    sname="Dark"
-  />
-   <Card
-    imgsrc="https://www.cyberark.com/wp-content/uploads/2019/11/Developer.jpg"
-    title="My name is avanish"
-    sname="I m mature"
-  />
-  <Card
-    imgsrc="https://www.cyberark.com/wp-content/uploads/2019/11/Developer.jpg"
-    title="My name is avanish"
-    sname="I m mature"
-  />
-
+  <App/>
   </>,
   document.getElementById("root")
 
